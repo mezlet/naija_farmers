@@ -1,0 +1,5 @@
+DATABASE_URL_DEV=your database
+NODE_ENV=development
+SECRET=your scret
+SENDGRID_FROM=email sender
+SENDGRID_API_KEY=sendgrid api key
