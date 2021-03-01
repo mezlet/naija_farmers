@@ -9,7 +9,8 @@
     "seedDB": "babel-node server/config/db/seed createSeeders",
     "dev:start": "nodemon --exec babel-node server/app.js",
     "build": "babel server --out-dir build",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "start": "babel-node server/app.js"
 
   },
   "author": "",
